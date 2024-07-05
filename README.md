@@ -18,7 +18,9 @@
 
 ## Interação com o banco de dados
 
-* Utilizaremos o [Beekeeper Community](https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v4.1.13)
+* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql)
+
+* Opcional [Beekeeper Community](https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v4.1.13)
 
 **Resolveremos o Desafio Backend da Magalu e aprenderemos:**
 
@@ -33,15 +35,15 @@
 
 Introdução:
 
-- [ ]  Qual é o desafio que vamos resolver?
+- [X]  Qual é o desafio que vamos resolver?
 
 ---
 
 Comunicação com o banco e dados:
 
-- [ ]  Iniciando o projeto Java (Web, Spring Data JPA, MySQL)
-- [ ]  Configurando o MySQL no Docker
-- [ ]  Configurando a comunicacao do Spring Boot com o MySQL
+- [X]  Iniciando o projeto Java (Web, Spring Data JPA, MySQL)
+- [X]  Configurando o MySQL no Docker
+- [X]  Configurando a comunicacao do Spring Boot com o MySQL
 
 ---
 
