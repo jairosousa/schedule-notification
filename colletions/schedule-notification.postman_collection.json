@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "4b263111-237c-48e4-9d70-9aeca432cb70",
+		"name": "schedule-notification",
+		"description": "Colletion video Build&Run [DESAFIO BACKEND da Magalu com Spring Boot, Scheduler e MySQL](https://youtu.be/af4W9Q4vB1s?si=OvS94EHiN76eXb5v)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1010130"
+	},
+	"item": [
+		{
+			"name": "notification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateTime\":\"2024-07-07T10:23:00\",\r\n    \"destination\":\"jnsdevs@test.com\",\r\n    \"message\": \"Seja bem vindo\",\r\n    \"channel\": \"EMAIL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

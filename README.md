@@ -1,5 +1,9 @@
 # Desafio Magalu
 
+Acompanhamento do video Build&Run [DESAFIO BACKEND da Magalu com Spring Boot, Scheduler e MySQL](https://youtu.be/af4W9Q4vB1s?si=QsF_TI2EGNjf_biD)
+
+---
+
 ![img.png](assets/escopo-desafio.png)
 
 ![img.png](assets/solucao-tecnica.png)
