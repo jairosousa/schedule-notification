@@ -51,9 +51,9 @@ Funcionalidade de solicitação de agendamento de notificação:
 
 - [X]  Mapear as entidades (Notification, Channel e Status)
 - [X]  Criar config de inicialização das tabelas (Channel e Status)
-- [ ]  Criar API de solicitação de agendamento de notificação
-- [ ]  Criar serviço de persistência da solicitação
-- [ ]  Testar o fluxo (api → service → mysql)
+- [X]  Criar API de solicitação de agendamento de notificação
+- [X]  Criar serviço de persistência da solicitação
+- [X]  Testar o fluxo (api → service → mysql)
 
 ---
 
