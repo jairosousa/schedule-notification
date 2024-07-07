@@ -50,7 +50,7 @@ Comunicação com o banco e dados:
 Funcionalidade de solicitação de agendamento de notificação:
 
 - [X]  Mapear as entidades (Notification, Channel e Status)
-- [ ]  Criar config de inicialização das tabelas (Channel e Status)
+- [X]  Criar config de inicialização das tabelas (Channel e Status)
 - [ ]  Criar API de solicitação de agendamento de notificação
 - [ ]  Criar serviço de persistência da solicitação
 - [ ]  Testar o fluxo (api → service → mysql)
