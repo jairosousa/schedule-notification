@@ -71,9 +71,9 @@ Funcionalidade de consultar a situação de agendamento de notificação:
 
 Funcionalidade de cancelamento de agendamento de notificação:
 
-- [ ]  Criar API de cancelamento de agendamento de notificação
-- [ ]  Criar serviço de cancelamento
-- [ ]  Testar a API
+- [x]  Criar API de cancelamento de agendamento de notificação
+- [x]  Criar serviço de cancelamento
+- [x]  Testar a API
 
 ---
 

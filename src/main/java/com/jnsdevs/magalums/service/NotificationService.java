@@ -2,7 +2,10 @@ package com.jnsdevs.magalums.service;
 
 import com.jnsdevs.magalums.controller.dto.ScheduleNotificationDto;
 import com.jnsdevs.magalums.entity.Notification;
+import com.jnsdevs.magalums.entity.Status;
 import com.jnsdevs.magalums.repository.NotificationRepository;
+import org.springframework.data.crossstore.ChangeSetPersister;
+import org.springframework.data.crossstore.ChangeSetPersister.NotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -20,11 +23,21 @@ public class NotificationService {
         this.notificationRepository = notificationRepository;
     }
 
+    public void scheduleNotification(ScheduleNotificationDto dto) {
+        notificationRepository.save(dto.toNotification());
+    }
+
     public Optional<Notification> findById(Long notificationId) {
         return notificationRepository.findById(notificationId);
     }
 
-    public void scheduleNotification(ScheduleNotificationDto dto) {
-        notificationRepository.save(dto.toNotification());
+    public void cancelNotification(Long notificationId) {
+        var notification = findById(notificationId);
+
+        if (notification.isPresent()) {
+            notification.get().setStatus(Status.Values.CANCELED.toStatus());
+            notificationRepository.save(notification.get());
+        }
+
     }
 }
