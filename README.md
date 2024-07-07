@@ -1,4 +1,4 @@
-# Desafio Magalu [![Java CI with Maven](https://github.com/jairosousa/schedule-notification/actions/workflows/maven.yml/badge.svg)](https://github.com/jairosousa/schedule-notification/actions/workflows/maven.yml)
+# Desafio Magalu [![Maven Build](https://github.com/jairosousa/schedule-notification/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/jairosousa/schedule-notification/actions/workflows/maven.yml)
 
 Acompanhamento do video Build&Run [DESAFIO BACKEND da Magalu com Spring Boot, Scheduler e MySQL](https://youtu.be/af4W9Q4vB1s?si=QsF_TI2EGNjf_biD)
 
