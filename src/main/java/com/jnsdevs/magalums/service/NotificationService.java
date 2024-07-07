@@ -1,8 +1,11 @@
 package com.jnsdevs.magalums.service;
 
 import com.jnsdevs.magalums.controller.dto.ScheduleNotificationDto;
+import com.jnsdevs.magalums.entity.Notification;
 import com.jnsdevs.magalums.repository.NotificationRepository;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 /**
  * @Autor Jairo Nascimento
@@ -15,6 +18,10 @@ public class NotificationService {
 
     public NotificationService(NotificationRepository notificationRepository) {
         this.notificationRepository = notificationRepository;
+    }
+
+    public Optional<Notification> findById(Long notificationId) {
+        return notificationRepository.findById(notificationId);
     }
 
     public void scheduleNotification(ScheduleNotificationDto dto) {

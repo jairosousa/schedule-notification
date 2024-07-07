@@ -63,9 +63,9 @@ Funcionalidade de solicitação de agendamento de notificação:
 
 Funcionalidade de consultar a situação de agendamento de notificação:
 
-- [ ]  Criar API de consulta de solicitação de agendamento de notificação
-- [ ]  Criar serviço de consulta
-- [ ]  Testar a API
+- [x]  Criar API de consulta de solicitação de agendamento de notificação
+- [x]  Criar serviço de consulta
+- [x]  Testar a API
 
 ---
 
